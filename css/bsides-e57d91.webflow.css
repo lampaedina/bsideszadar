@@ -565,6 +565,17 @@ h3 {
   display: none;
 }
 
+.image-9 {
+  max-width: 90%;
+  margin-left: 60px;
+  transition: all .4s;
+  overflow: hidden;
+}
+
+.image-9:hover {
+  transform: scale(1.1);
+}
+
 @media screen and (min-width: 1440px) {
   h3 {
     color: var(--color);
